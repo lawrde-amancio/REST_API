@@ -9,15 +9,31 @@ import com.spring.spring_rest.mapper.StudentMapper;
 import com.spring.spring_rest.dto.StudentDto;
 import com.spring.spring_rest.exception.StudentNotFoundException;
 
+/**
+ * Default implementation of {@link StudentService} 
+ * that manages {@link Student} entities
+ * using {@link StudentRepository} and maps between 
+ * entities and {@link StudentDto} objects.
+ */
 @Service 
 public class StudentServiceImplementation implements StudentService{
 
     private StudentRepository studentRepo;
-
+    
+    /**
+     * Constructs a new {@code StudentServiceImplementation} 
+     * with the required repository.
+     *
+     * @param studentRepo the repository used for student 
+     * persistence operations
+     */
     public StudentServiceImplementation(StudentRepository studentRepo) {
         this.studentRepo = studentRepo;
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override 
     public StudentDto createStudent(StudentDto theStudentDto) {
         Student theStudent = StudentMapper.mapToStudent(theStudentDto);
@@ -25,6 +41,12 @@ public class StudentServiceImplementation implements StudentService{
         return StudentMapper.mapToStudentDto(saved);
     }
 
+    /**
+     * {@inheritDoc}
+     *
+     * @throws StudentNotFoundException if no student exists 
+     * with the given {@code theId}
+     */
     @Override 
     public StudentDto getStudentById(Long theId) {
         Student student = studentRepo.findById(theId)
@@ -35,6 +57,9 @@ public class StudentServiceImplementation implements StudentService{
         return StudentMapper.mapToStudentDto(student);
     }
 
+    /**
+     * {@inheritDoc}
+     */
     @Override 
     public List<StudentDto> getAllStudents() {
         List<Student> students = studentRepo.findAll();
@@ -43,6 +68,12 @@ public class StudentServiceImplementation implements StudentService{
             .collect(Collectors.toList());
     }
 
+    /**
+     * {@inheritDoc}
+     *
+     * @throws StudentNotFoundException if no student exists 
+     * with the given {@code theId}
+     */
     @Override 
     public StudentDto updateStudent(Long theId, StudentDto theStudentDto) {
         Student student = studentRepo.findById(theId)
@@ -56,6 +87,12 @@ public class StudentServiceImplementation implements StudentService{
         return StudentMapper.mapToStudentDto(saved);
     }
 
+    /**
+     * {@inheritDoc}
+     *
+     * @throws StudentNotFoundException if no student exists 
+     * with the given {@code theId}
+     */
     @Override 
     public StudentDto patchStudent(Long theId, StudentDto theStudentDto) {
         Student student = studentRepo.findById(theId)
@@ -75,6 +112,12 @@ public class StudentServiceImplementation implements StudentService{
         return StudentMapper.mapToStudentDto(saved);
     }
 
+    /**
+     * {@inheritDoc}
+     *
+     * @throws StudentNotFoundException if no student exists 
+     * with the given {@code theId}
+     */
     @Override 
     public void deleteStudentById(Long theId) {
         studentRepo.findById(theId)
