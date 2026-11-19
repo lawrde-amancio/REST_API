@@ -14,19 +14,20 @@ import com.spring.spring_rest.exception.StudentNotFoundException;
 
 /**
  * Global exception handler for REST controllers across the application.
- * <p>
  * Intercepts exceptions thrown during HTTP request processing and translates
  * them into structured HTTP error responses with appropriate status codes.
- * </p>
  */
 @ControllerAdvice 
 public class StudentExceptionHandler {
 
     /**
-     * Handles {@link StudentNotFoundException} when a requested student resource does not exist.
+     * Handles {@link StudentNotFoundException} when a requested 
+     * student resource does not exist.
      *
      * @param ex the thrown {@link StudentNotFoundException}
-     * @return a {@link ResponseEntity} containing a {@link StudentErrorResponse} with HTTP status {@code 404 Not Found}
+     * @return a {@link ResponseEntity} containing a 
+     * {@link StudentErrorResponse} 
+     * with HTTP status {@code 404 Not Found}
      */
     @ExceptionHandler
     public ResponseEntity<StudentErrorResponse> handleException (
@@ -41,10 +42,13 @@ public class StudentExceptionHandler {
     }
 
     /**
-     * Handles general unhandled exceptions, such as type mismatch errors on path variables.
+     * Handles general unhandled exceptions, such as type mismatch 
+     * errors on path variables.
      *
      * @param ex the thrown {@link Exception}
-     * @return a {@link ResponseEntity} containing a {@link StudentErrorResponse} with HTTP status {@code 400 Bad Request}
+     * @return a {@link ResponseEntity} containing a 
+     * {@link StudentErrorResponse} 
+     * with HTTP status {@code 400 Bad Request}
      */
     @ExceptionHandler 
     public ResponseEntity<StudentErrorResponse> handleException(
@@ -58,7 +62,8 @@ public class StudentExceptionHandler {
         }
     
         /**
-     * Handles bean validation failures triggered by {@code @Valid} request bodies.
+     * Handles bean validation failures triggered by 
+     * {@code @Valid} request bodies.
      *
      * @param ex the thrown {@link MethodArgumentNotValidException} 
      * containing field validation errors

@@ -12,7 +12,8 @@ public class StudentNotFoundException extends RuntimeException {
      * Constructs a new {@code StudentNotFoundException} with 
      * the specified detail message and cause.
      *
-     * @param message the detail message explaining the reason for the exception
+     * @param message the detail message explaining the reason for 
+     * the exception
      * @param cause   the underlying cause of this exception
      */
     public StudentNotFoundException(String message, Throwable cause) {
@@ -31,7 +32,8 @@ public class StudentNotFoundException extends RuntimeException {
     }
 
     /**
-     * Constructs a new {@code StudentNotFoundException} with the specified cause.
+     * Constructs a new {@code StudentNotFoundException} with 
+     * the specified cause.
      *
      * @param cause the underlying cause of this exception
      */
