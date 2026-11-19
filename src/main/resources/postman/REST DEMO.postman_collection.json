@@ -1,10 +1,10 @@
 {
   "info": {
-    "_postman_id": "f22abf03-59fd-4506-b320-b6d85a0f7adc",
+    "_postman_id": "8e970720-99b0-4a99-9525-b7fc12a9301f",
     "name": "REST API",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
     "_exporter_id": "58946314",
-    "_collection_link": "https://go.postman.co/collection/58946314-f22abf03-59fd-4506-b320-b6d85a0f7adc?source=collection_link"
+    "_collection_link": "https://go.postman.co/collection/58946314-8e970720-99b0-4a99-9525-b7fc12a9301f?source=collection_link"
   },
   "item": [
     {
@@ -12,26 +12,12 @@
       "request": {
         "method": "GET",
         "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
         "url": {
           "raw": "http://localhost:8080/api/students",
           "protocol": "http",
-          "host": [
-            "localhost"
-          ],
+          "host": ["localhost"],
           "port": "8080",
-          "path": [
-            "api",
-            "students"
-          ]
+          "path": ["api", "students"]
         }
       },
       "response": [
@@ -43,14 +29,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students"
-              ]
+              "path": ["api", "students"]
             }
           },
           "status": "OK",
@@ -89,15 +70,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students/0",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "0"
-              ]
+              "path": ["api", "students", "0"]
             }
           },
           "status": "OK",
@@ -136,15 +111,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students/9",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "9"
-              ]
+              "path": ["api", "students", "9"]
             }
           },
           "status": "OK",
@@ -179,15 +148,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students/9",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "9"
-              ]
+              "path": ["api", "students", "9"]
             }
           },
           "status": "OK",
@@ -226,15 +189,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students/abcde",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "abcde"
-              ]
+              "path": ["api", "students", "abcde"]
             }
           },
           "status": "OK",
@@ -278,14 +235,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students"
-              ]
+              "path": ["api", "students"]
             }
           },
           "status": "OK",
@@ -333,14 +285,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students"
-              ]
+              "path": ["api", "students"]
             }
           },
           "status": "OK",
@@ -372,27 +319,12 @@
           "originalRequest": {
             "method": "GET",
             "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
             "url": {
               "raw": "http://localhost:8080/api/students/4",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "4"
-              ]
+              "path": ["api", "students", "4"]
             }
           },
           "status": "OK",
@@ -428,27 +360,12 @@
           "originalRequest": {
             "method": "GET",
             "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"firstName\": \" \",\r\n  \"lastName\": \"Ritchie\",\r\n  \"email\": \"Mapulak\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
             "url": {
               "raw": "http://localhost:8080/api/students/999",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "999"
-              ]
+              "path": ["api", "students", "999"]
             }
           },
           "status": "OK",
@@ -484,27 +401,12 @@
           "originalRequest": {
             "method": "GET",
             "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "{\r\n  \"firstName\": \" \",\r\n  \"lastName\": \"Ritchie\",\r\n  \"email\": \"Mapulak\"\r\n}",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
             "url": {
               "raw": "http://localhost:8080/api/students/abcde",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "abcde"
-              ]
+              "path": ["api", "students", "abcde"]
             }
           },
           "status": "OK",
@@ -536,26 +438,12 @@
           "originalRequest": {
             "method": "GET",
             "header": [],
-            "body": {
-              "mode": "raw",
-              "raw": "",
-              "options": {
-                "raw": {
-                  "language": "json"
-                }
-              }
-            },
             "url": {
               "raw": "http://localhost:8080/api/students",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students"
-              ]
+              "path": ["api", "students"]
             }
           },
           "status": "OK",
@@ -603,15 +491,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students/1",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "1"
-              ]
+              "path": ["api", "students", "1"]
             }
           },
           "status": "OK",
@@ -659,15 +541,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students/3",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "3"
-              ]
+              "path": ["api", "students", "3"]
             }
           },
           "status": "OK",
@@ -715,15 +591,9 @@
             "url": {
               "raw": "http://localhost:8080/api/students/3",
               "protocol": "http",
-              "host": [
-                "localhost"
-              ],
+              "host": ["localhost"],
               "port": "8080",
-              "path": [
-                "api",
-                "students",
-                "3"
-              ]
+              "path": ["api", "students", "3"]
             }
           },
           "status": "OK",
@@ -753,6 +623,294 @@
           ],
           "cookie": [],
           "body": "Student deleted successfully!"
+        },
+        {
+          "name": "Putting Information Invalid id(String)",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"firstName\": \"Lawrde Darryle\",\r\n    \"lastName\": \"Amancio\",\r\n    \"email\": \"lawrde.amancio@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/students/asdasda",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "students", "asdasda"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 19 Nov 2026 06:43:51 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"message\": \"Invalid data. Only Integers are accepted\",\n  \"timeStamp\": 1795070631514\n}"
+        },
+        {
+          "name": "Putting Information with Invalid id(INT)",
+          "originalRequest": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"firstName\": \"Lawrde Darryle\",\r\n    \"lastName\": \"Amancio\",\r\n    \"email\": \"lawrde.amancio@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/students/1231",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "students", "1231"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 19 Nov 2026 06:44:27 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 404,\n  \"message\": \"Student id 1231 not found!\",\n  \"timeStamp\": 1795070667562\n}"
+        },
+        {
+          "name": "Deleting Information with Invalid id(INT)",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"firstName\": \"Ritchie\",\r\n    \"lastName\": \"Mapulak\",\r\n    \"email\": \"ritchie.mapulak@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/students/1231",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "students", "1231"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 19 Nov 2026 06:45:06 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 404,\n  \"message\": \"Student id 1231 not found!\",\n  \"timeStamp\": 1795070706377\n}"
+        },
+        {
+          "name": "Deleting Information with Invalid id(String)",
+          "originalRequest": {
+            "method": "DELETE",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"firstName\": \"Ritchie\",\r\n    \"lastName\": \"Mapulak\",\r\n    \"email\": \"ritchie.mapulak@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/students/asdada",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "students", "asdada"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 19 Nov 2026 06:45:55 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"message\": \"Invalid data. Only Integers are accepted\",\n  \"timeStamp\": 1795070755451\n}"
+        },
+        {
+          "name": "Patching Information With Invalid id (INT)",
+          "originalRequest": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"firstName\": \"Ritchie\",\r\n    \"lastName\": \"Mapulak\",\r\n    \"email\": \"ritchie.mapulak@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/students/3231",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "students", "3231"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 19 Nov 2026 06:47:33 GMT"
+            },
+            {
+              "key": "Keep-Alive",
+              "value": "timeout=60"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 404,\n  \"message\": \"Student id 3231 not found!\",\n  \"timeStamp\": 1795070853149\n}"
+        },
+        {
+          "name": "Patching Information with Invalid id(String)",
+          "originalRequest": {
+            "method": "PATCH",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"firstName\": \"Ritchie\",\r\n    \"lastName\": \"Mapulak\",\r\n    \"email\": \"ritchie.mapulak@example.com\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:8080/api/students/asdasd",
+              "protocol": "http",
+              "host": ["localhost"],
+              "port": "8080",
+              "path": ["api", "students", "asdasd"]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 19 Nov 2026 06:48:05 GMT"
+            },
+            {
+              "key": "Connection",
+              "value": "close"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n  \"status\": 400,\n  \"message\": \"Invalid data. Only Integers are accepted\",\n  \"timeStamp\": 1795070885668\n}"
         }
       ]
     },
